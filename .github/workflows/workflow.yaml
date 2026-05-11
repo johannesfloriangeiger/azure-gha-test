@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: 'Az CLI login'
-        uses: azure/login@8c334a195cbb38e46038007b304988d888bf676a
+        uses: azure/login@v3
         with:
           auth-type: IDENTITY
           client-id: 'c456206b-c0df-4edb-b153-6f71408187c3'
