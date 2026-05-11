@@ -14,7 +14,6 @@ jobs:
           client-id: c456206b-c0df-4edb-b153-6f71408187c3
           tenant-id: e0793d39-0939-496d-b129-198edd916feb
           allow-no-subscriptions: true
-          enable-AzPSSession: true
 
       - name: Azure CLI script
         uses: azure/cli@v2
