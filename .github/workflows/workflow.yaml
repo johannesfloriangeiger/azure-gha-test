@@ -14,6 +14,7 @@ jobs:
           client-id: 'c456206b-c0df-4edb-b153-6f71408187c3'
           tenant-id: 'e0793d39-0939-496d-b129-198edd916feb'
           subscription-id: 'fbfd85be-e8a0-4793-ad9a-8b81a6ffd9d6'
+          auth-type: 'IDENTITY'
 
       - name: 'Run az commands'
         run: |
